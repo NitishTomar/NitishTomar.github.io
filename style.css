@@ -1,0 +1,5453 @@
+*{
+
+margin: 0px;
+
+}
+
+.upperleft{
+
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    
+    
+
+}
+
+#ilus{
+
+    height: 100%;
+    animation: leftanim 1s 2s ;
+    display: flex;
+    justify-content: center;
+}
+
+
+#ilus img{
+
+
+    height: 500px;
+    background-color:white;
+    
+
+}
+
+
+.upperleft img{
+    margin-top: 200px;
+    height: 100px;
+
+
+animation: cir 1s 0.9s normal;
+animation-iteration-count: infinite;
+animation-duration: 0.06s;
+border: 2px solid white; 
+animation-timing-function: linear;
+border-radius: 100px;
+
+}
+
+.upperleft p{
+
+
+    margin-top: 320px;
+    margin-left: -90px;
+    font-weight: bold;
+    animation: fade 1s normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 0.7s;
+
+}
+
+
+.leftdiv h4{
+
+    font-family: 'Cabin', sans-serif;
+    margin-top: 20px;
+    margin-left: 33%;
+
+}
+
+
+
+p{
+
+    font-family: 'Cabin', sans-serif;
+
+}
+
+a{
+    font-family: 'Cabin', sans-serif;
+
+}
+
+
+.leftdiv{
+
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    
+    
+}
+
+
+.rightdiv{
+    margin-left: 20%;
+    font-size: 100px;
+    height: 100%;
+    background-color: white;
+
+}
+
+#linkedin{
+
+    height: 23px;
+
+}
+
+#contact{
+
+height: 25px;
+
+}
+
+
+#profilepic{
+    height: 100px; 
+    margin-left: 25%; 
+    margin-top: 30px; 
+    border: 2px solid white; 
+    border-radius: 100px;
+}
+
+
+.about{
+
+
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.about img{
+
+    margin-left: 15px;
+height: 20px;
+border-radius: 5px;
+
+
+}
+
+
+ul{
+
+    margin-top: 50px;
+    list-style: none;
+    margin-left: 20px;
+
+
+}
+
+li{
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+
+.object{
+
+padding: 10px;
+font-size: 1.3rem;
+background-color: white;
+color: black;
+cursor: pointer;
+/* border-left: 8px solid purple; */
+
+}
+
+
+.objectivediv{
+
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    display: none;
+    height: 500px;
+    background-color:white;
+
+
+}
+
+.objectivediv p{
+
+
+    margin-top: 30px;
+
+}
+
+.objectivediv img{
+
+    height: 100px;
+    margin-left: 42%;
+
+
+}
+
+
+.objectivediv h3{
+
+    margin-top: 30px;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+
+.technologydiv{
+
+    display: none;
+    margin-top: 10px;
+    height: 100%;
+    background-color: white;
+
+    font-size: 1.5rem;
+
+}
+
+.technologydiv #lang{
+
+    margin-left: 70px;
+    margin-top: 50px;
+    border-bottom: 2px solid purple;
+}
+
+
+.technologydiv img{
+
+height: 100px;
+margin-left: 43%;
+
+}
+
+
+.educationdiv{
+
+    display: none;
+    height: 100%;
+
+
+    background-color: white;
+
+
+}
+
+#eduimg{
+    height: 120px;
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+
+.languages div{
+
+
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 0.9rem;
+    
+
+}
+
+.languages div img {
+    height: 50px;
+}
+
+
+.edu{
+    display: flex;
+    justify-content: center;
+}
+
+
+.school{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 100px;
+    border-bottom: 2px solid purple;
+    margin-bottom: 20px;
+}
+
+.school p {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+
+}
+
+
+.collegename{
+    font-size: 1.5rem;
+    margin-left: 200px;
+}
+
+
+
+.schoolname{
+    margin-left: 200px;
+}
+
+
+.school img{
+    height: 70px;
+}
+
+.schoolname p {
+
+
+    font-size: 1.5rem;
+
+
+}
+
+
+.projectsdiv{
+
+
+    display: none;
+    background-color: white;
+
+}
+
+#idea{
+
+height: 100px;
+margin-left: 45%;
+
+}
+
+.androidapp{
+
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-bottom: 2px solid purple;
+
+}
+
+.androidapp p{
+
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.androidapp a {
+
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: white;
+    border: 1px solid red;
+    font-weight: bold;
+    padding: 2px;
+    height: 50%;
+    margin-top: 23px;
+    margin-left: 20px;
+    border-radius: 3px;
+    background-color: red;
+    font-family: 'Cabin', sans-serif;
+    
+
+
+}
+
+
+#description{
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+/* #################################################################################################### */
+
+@media only screen and (min-width: 200px){
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+        margin-top: 40px;
+
+        height: 200px;
+        background-color:white;
+        
+    
+    }
+
+
+     .leftdiv{
+
+        background-color: black;
+        height: 250px;
+        width: 100%;
+        animation: fade 1s;
+
+    }
+
+    /* .leftdiv h4{
+
+margin-left: 80px;
+
+    } */
+
+    .leftdiv #profilepic{
+
+
+        height: 70px;
+        margin-left: 37%;
+
+
+    }
+
+    .about {
+
+
+        margin-left: 10p;
+        margin-top: 10px;
+
+    }
+
+      #gmail{
+        height: 20px;
+        margin-left: 20%;
+    }
+
+      #linkedin{
+
+        height: 22px;
+    margin-left: 5%;
+    border-radius: 10px;
+
+    }
+
+
+      #github{
+
+
+        height: 20px;
+        margin-left: 5%;
+
+    }
+
+
+
+      #contact{
+
+        margin-left: 5%;
+
+
+    }
+
+
+      #ullist{
+
+
+        margin-top: 20px;
+        margin-left: -10px;
+        display: flex;
+        margin-left: -20px;
+        color: white;
+
+
+    }
+
+
+      li{
+
+
+        margin-left: 2px;
+        font-size: 0.4rem;
+        font-weight: bold;
+
+    }
+
+
+      .object{
+        font-size: 0.4rem;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+border-bottom: 5px solid purple;
+
+        
+        }
+
+
+      .rightdiv{
+
+
+        margin-top: 78%;
+        margin-left: 0px;
+        height: 100%;
+
+
+    }
+
+      .objectivediv {
+
+        margin-top: 30px;
+        margin-left: 0px;
+        /* animation: fade 1s; */
+
+
+    }
+
+
+      .objectivediv img{
+
+
+        margin-left: 35%;
+
+
+    }
+
+      .objectivediv p {
+
+        font-size: 1rem;
+        margin-left: 10px;
+        font-family: 'Cabin', sans-serif;
+        
+    }
+
+      .objectivediv h3{
+
+
+        font-size: 1rem;
+        margin-left: 10px;
+
+    }
+
+
+    .educationdiv {
+        margin-left: 0px;
+        /* animation: fade 1s; */
+
+    }
+
+
+    .educationdiv #eduimg{
+
+        margin-top: 40px;
+        margin-left: 0px;
+        height: 70px;
+
+    }
+
+    .edu img{
+
+        height: 90px;
+
+    }
+
+   .school img{
+
+    margin-left: 0px;
+        height: 30px;
+
+    }
+
+    .school{
+
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .school p {
+        margin-left: 10px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+
+    .collegename {
+        margin-left: 0px;
+    }
+
+    .collegename p {
+        
+        font-size: 1rem;
+        margin-left: 20px;
+
+    }
+
+    .schoolname{
+
+
+        margin-left: 0px;
+
+    }
+
+    .schoolname p{
+
+
+        margin-left: 20px;
+
+        font-size: 1rem;
+
+
+    }
+
+
+    .technologydiv{
+
+        display: none;
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 100%;
+        background-color: white;
+        font-size: 1rem;
+        /* animation: fade 1s; */
+
+    
+    }
+    
+    .technologydiv #lang{
+    
+        margin-left: 30px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    }
+    
+    
+    .technologydiv img{
+    
+    height: 80px;
+    margin-left: 43%;
+    
+    }
+
+    .languages div{
+
+
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 0.9rem;
+        
+    
+    }
+
+
+    .projectsdiv{
+
+
+        margin-left: 0px;
+        display: none;
+        background-color: white;
+        /* animation: fade 1s; */
+    
+    }
+
+    
+    #idea{
+    
+    height: 80px;
+    margin-left: 140px;
+    
+    }
+    
+    .androidapp{
+    
+        display: flex;
+        margin-left: 10px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    
+    }
+    
+    .androidapp p{
+    
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-left: 10px;
+    
+    }
+    
+    .androidapp a {
+    
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: white;
+        border: 1px solid red;
+        font-weight: bold;
+        padding: 2px;
+        height: 50%;
+        margin-top: 23px;
+        margin-left: 20px;
+        border-radius: 3px;
+        background-color: red;
+        font-family: 'Cabin', sans-serif;
+        
+    
+    
+    }
+    
+    
+    #description{
+        font-size: 1rem;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+/* ################################################################################################### */
+
+@media only screen and (min-width: 310px){
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+        margin-top: 40px;
+
+        height: 200px;
+        background-color:white;
+        
+    
+    }
+
+
+     .leftdiv{
+
+        background-color: black;
+        height: 250px;
+        width: 100%;
+        animation: fade 1s;
+
+    }
+
+    /* .leftdiv h4{
+
+margin-left: 80px;
+
+    } */
+
+    .leftdiv #profilepic{
+
+
+        height: 70px;
+        margin-left: 41%;
+
+
+    }
+
+    .about {
+
+
+        margin-left: 10p;
+        margin-top: 10px;
+
+    }
+
+      #gmail{
+        height: 20px;
+        margin-left: 20%;
+    }
+
+      #linkedin{
+
+        height: 22px;
+    margin-left: 5%;
+    border-radius: 10px;
+
+    }
+
+
+      #github{
+
+
+        height: 20px;
+        margin-left: 5%;
+
+    }
+
+
+
+      #contact{
+
+        margin-left: 5%;
+
+
+    }
+
+
+      #ullist{
+
+
+        margin-top: 20px;
+        margin-left: 100px;
+        display: flex;
+        margin-left: -20px;
+        color: white;
+
+
+    }
+
+
+      li{
+
+
+        margin-left: 10px;
+        font-size: 0.4rem;
+        font-weight: bold;
+
+    }
+
+
+      .object{
+        font-size: 0.4rem;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+border-bottom: 5px solid purple;
+
+        
+        }
+
+
+      .rightdiv{
+
+
+        margin-top: 78%;
+        margin-left: 0px;
+        height: 100%;
+
+
+    }
+
+      .objectivediv {
+
+        margin-top: 30px;
+        margin-left: 0px;
+        /* animation: fade 1s; */
+
+
+    }
+
+
+      .objectivediv img{
+
+
+        margin-left: 35%;
+
+
+    }
+
+      .objectivediv p {
+
+        font-size: 1rem;
+        margin-left: 10px;
+        font-family: 'Cabin', sans-serif;
+        
+    }
+
+      .objectivediv h3{
+
+
+        font-size: 1rem;
+        margin-left: 10px;
+
+    }
+
+
+    .educationdiv {
+        margin-left: 0px;
+        /* animation: fade 1s; */
+
+    }
+
+
+    .educationdiv #eduimg{
+
+        margin-top: 40px;
+        margin-left: 0px;
+        height: 70px;
+
+    }
+
+    .edu img{
+
+        height: 90px;
+
+    }
+
+   .school img{
+
+    margin-left: 0px;
+        height: 30px;
+
+    }
+
+    .school{
+
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .school p {
+        margin-left: 10px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+
+    .collegename {
+        margin-left: 0px;
+    }
+
+    .collegename p {
+        
+        font-size: 1rem;
+        margin-left: 20px;
+
+    }
+
+    .schoolname{
+
+
+        margin-left: 0px;
+
+    }
+
+    .schoolname p{
+
+
+        margin-left: 20px;
+
+        font-size: 1rem;
+
+
+    }
+
+
+    .technologydiv{
+
+        display: none;
+        margin-left: 0px;
+        margin-top: 10px;
+        height: 100%;
+        background-color: white;
+        font-size: 1rem;
+        /* animation: fade 1s; */
+
+    
+    }
+    
+    .technologydiv #lang{
+    
+        margin-left: 30px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    }
+    
+    
+    .technologydiv img{
+    
+    height: 80px;
+    margin-left: 43%;
+    
+    }
+
+    .languages div{
+
+
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 0.9rem;
+        
+    
+    }
+
+
+    .projectsdiv{
+
+
+        margin-left: 0px;
+        display: none;
+        background-color: white;
+        /* animation: fade 1s; */
+    
+    }
+
+    
+    #idea{
+    
+    height: 80px;
+    margin-left: 140px;
+    
+    }
+    
+    .androidapp{
+    
+        display: flex;
+        margin-left: 10px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    
+    }
+    
+    .androidapp p{
+    
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-left: 10px;
+    
+    }
+    
+    .androidapp a {
+    
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: white;
+        border: 1px solid red;
+        font-weight: bold;
+        padding: 2px;
+        height: 50%;
+        margin-top: 23px;
+        margin-left: 20px;
+        border-radius: 3px;
+        background-color: red;
+        font-family: 'Cabin', sans-serif;
+        
+    
+    
+    }
+    
+    
+    #description{
+        font-size: 1rem;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 320px){
+
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+
+        height: 300px;
+        background-color:white;
+        
+    
+    }
+
+    .leftdiv{
+
+       background-color: black;
+       height: 250px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 70px;
+       margin-left: 37%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10p;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 20px;
+       margin-left: 20%;
+   }
+
+     #linkedin{
+
+   margin-left: 5%;
+   border-radius: 10px;
+   height: 22px;
+
+   }
+
+
+     #github{
+
+
+       height: 20px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+       height: 20px;
+
+
+   }
+
+
+     #ullist{
+
+
+       margin-top: 20px;
+       margin-left: 0px;
+       display: flex;
+       color: white;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 0px;
+       font-size: 0.5rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 0.5rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 60%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+
+   }
+
+
+     .objectivediv img{
+
+
+       margin-left: 35%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 40px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   .projectsdiv{
+
+
+       margin-left: 0px;
+       display: none;
+       background-color: white;
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-left: 160px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 360px){
+
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+
+        height: 300px;
+        background-color:white;
+        
+    
+    }
+
+    .leftdiv{
+
+       background-color: black;
+       height: 250px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 70px;
+       margin-left: 38%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10p;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 20px;
+       margin-left: 20%;
+   }
+
+     #linkedin{
+
+   margin-left: 5%;
+   border-radius: 10px;
+   height: 22px;
+
+   }
+
+
+     #github{
+
+
+       height: 20px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+       height: 20px;
+
+
+   }
+
+
+     #ullist{
+
+
+       margin-top: 20px;
+       margin-left: 0px;
+       display: flex;
+       color: white;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 0px;
+       font-size: 0.5rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 0.5rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 60%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+
+   }
+
+
+     .objectivediv img{
+
+
+       margin-left: 35%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 40px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   .projectsdiv{
+
+
+       margin-left: 0px;
+       display: none;
+       background-color: white;
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-left: 160px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 380px){
+
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+
+        height: 300px;
+        background-color:white;
+        
+    
+    }
+
+    .leftdiv{
+
+       background-color: black;
+       height: 250px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 70px;
+       margin-left: 39%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10px;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 20px;
+       margin-left: 26%;
+   }
+
+     #linkedin{
+
+   margin-left: 5%;
+   border-radius: 10px;
+   height: 22px;
+
+   }
+
+
+     #github{
+
+
+       height: 20px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+       height: 20px;
+
+
+   }
+
+
+     #ullist{
+
+
+       margin-top: 20px;
+       margin-left: 0px;
+       display: flex;
+       color: white;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 0px;
+       font-size: 0.6rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 0.6rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 60%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+
+   }
+
+
+     .objectivediv img{
+
+
+       margin-left: 35%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 40px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   .projectsdiv{
+
+
+       margin-left: 0px;
+       display: none;
+       background-color: white;
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-left: 160px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 420px){
+
+
+    .leftdiv{
+
+       background-color: black;
+       height: 250px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 70px;
+       margin-left: 37%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10%;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 20px;
+       margin-left: 20%;
+   }
+
+     #linkedin{
+
+   margin-left: 5%;
+   border-radius: 10px;
+
+   }
+
+
+     #github{
+
+
+       height: 20px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+
+
+   }
+
+
+     #ullist{
+
+       margin-top: 20px;
+       display: flex;
+       color: white;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 0px;
+       font-size: 0.7rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 0.7rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 55%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+
+   }
+
+
+     .objectivediv img{
+
+
+       margin-left: 35%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 40px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+       /* animation: fade 1s; */
+
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   .projectsdiv{
+
+
+       margin-left: 0px;
+       margin-top: 10px;
+       display: none;
+       background-color: white;
+       /* animation: fade 1s; */
+
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-top: 0px;
+   margin-left: 180px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 490px){
+
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+
+        height: 400px;
+        background-color:white;
+        
+    
+    }
+
+    .leftdiv{
+
+       background-color: black;
+       height: 250px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 70px;
+       margin-left: 43%;
+
+
+   }
+
+   .leftdiv h4{
+
+    margin-left: 38%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10%;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 20px;
+       margin-left: 25%;
+   }
+
+     #linkedin{
+
+   margin-left: 5%;
+   border-radius: 10px;
+
+   }
+
+
+     #github{
+
+
+       height: 20px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+
+
+   }
+
+
+     #ullist{
+
+       margin-top: 20px;
+       margin-left: 10px;
+       display: flex;
+       color: white;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 0px;
+       font-size: 0.8rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 0.8rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 56%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+
+   }
+
+
+     .objectivediv img{
+
+
+        margin-top: -20px;
+       margin-left: 38%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 20px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+       /* animation: fade 1s; */
+
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   #projectsdiv{
+
+
+       margin-left: 0px;
+       margin-top: 0px;
+       display: none;
+       background-color: white;
+       /* animation: fade 1s; */
+
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-top: 0px;
+   margin-left: 240px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 560px){
+
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+
+        height: 400px;
+        background-color:white;
+        
+    
+    }
+
+    .leftdiv{
+
+       background-color: black;
+       height: 250px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 70px;
+       margin-left: 39%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10%;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 20px;
+       margin-left: 20%;
+   }
+
+     #linkedin{
+
+   margin-left: 5%;
+   border-radius: 10px;
+
+   }
+
+
+     #github{
+
+
+       height: 20px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+
+
+   }
+
+
+     #ullist{
+
+       margin-top: 20px;
+       margin-left: 30px;
+       display: flex;
+       color: white;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 4px;
+       font-size: 0.8rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 0.8rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 56%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+
+   }
+
+
+     .objectivediv img{
+
+
+        margin-top: -20px;
+       margin-left: 38%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 20px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+       /* animation: fade 1s; */
+
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   #projectsdiv{
+
+
+       margin-left: 0px;
+       margin-top: 0px;
+       display: none;
+       background-color: white;
+       /* animation: fade 1s; */
+
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-top: 0px;
+   margin-left: 240px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 590px){
+
+    #ilus{
+
+        height: 100%;
+        animation: leftanim 1s 2s ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ilus img{
+
+
+        margin-top: 20px;
+        height: 400px;
+        background-color:white;
+        
+    
+    }
+
+    .leftdiv{
+
+       background-color: black;
+       height: 280px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv h4{
+
+
+    margin-left: 240px;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 100px;
+       margin-left: 39%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10%;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 25px;
+       margin-left: 20%;
+   }
+
+     #linkedin{
+
+        height: 25px;
+   margin-left: 5%;
+   border-radius: 10px;
+
+   }
+
+
+     #github{
+
+
+       height: 30px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+
+       height: 28px;
+
+   }
+
+
+     #ullist{
+
+
+       margin-top: 20px;
+       display: flex;
+       color: white;
+       margin-left: 20px;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 0px;
+       font-size: 1rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 1rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 60%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+
+   }
+
+
+     .objectivediv img{
+
+
+        margin-top: -20px;
+       margin-left: 38%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1.2rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1.3rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 20px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1.4rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1.2rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1.2rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+       /* animation: fade 1s; */
+
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   .projectsdiv{
+
+
+       margin-left: 0px;
+       margin-top: -100px;
+       display: none;
+       background-color: white;
+       /* animation: fade 1s; */
+
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-top: 0px;
+   margin-left: 240px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 670px){
+
+
+    .leftdiv{
+
+       background-color: black;
+       height: 300px;
+       width: 100%;
+       animation: fade 1s;
+
+   }
+
+   .leftdiv #profilepic{
+
+
+       height: 100px;
+       margin-left: 39%;
+
+
+   }
+
+   .about {
+
+
+       margin-left: 10%;
+       margin-top: 10px;
+
+   }
+
+     #gmail{
+       height: 25px;
+       margin-left: 20%;
+   }
+
+     #linkedin{
+
+        height: 25px;
+   margin-left: 5%;
+   border-radius: 10px;
+
+   }
+
+
+     #github{
+
+
+       height: 30px;
+       margin-left: 5%;
+
+   }
+
+
+
+     #contact{
+
+       margin-left: 5%;
+
+       height: 30px;
+
+   }
+
+
+     #ullist{
+
+
+       margin-top: 20px;
+       display: flex;
+       color: white;
+       margin-left: 40px;
+
+
+   }
+
+
+     li{
+
+
+       margin-left: 0px;
+       font-size: 1rem;
+       font-weight: bold;
+
+   }
+
+
+     .object{
+       font-size: 1rem;
+       background-color: white;
+       color: black;
+       cursor: pointer;
+border-bottom: 5px solid purple;
+
+       
+       }
+
+
+     .rightdiv{
+
+
+       margin-top: 60%;
+       margin-left: 0px;
+       height: 100%;
+
+
+   }
+
+     .objectivediv {
+
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+
+   }
+
+
+     .objectivediv img{
+
+
+        margin-top: -20px;
+       margin-left: 38%;
+
+
+   }
+
+     .objectivediv p {
+
+       font-size: 1.2rem;
+       margin-left: 10px;
+       font-family: 'Cabin', sans-serif;
+       
+   }
+
+     .objectivediv h3{
+
+
+       font-size: 1.3rem;
+       margin-left: 10px;
+
+   }
+
+
+   .educationdiv {
+       margin-left: 0px;
+       /* animation: fade 1s; */
+
+   }
+
+
+   .educationdiv #eduimg{
+
+       margin-top: 20px;
+       margin-left: 0px;
+       height: 70px;
+
+   }
+
+   .edu img{
+
+       height: 90px;
+
+   }
+
+  .school img{
+
+   margin-left: 0px;
+       height: 30px;
+
+   }
+
+   .school{
+
+       margin-top: 40px;
+       margin-left: 0px;
+   }
+
+   .school p {
+       margin-left: 10px;
+       font-size: 1.4rem;
+       margin-top: 10px;
+   }
+
+
+   .collegename {
+       margin-left: 0px;
+   }
+
+   .collegename p {
+       
+       font-size: 1.2rem;
+       margin-left: 20px;
+
+   }
+
+   .schoolname{
+
+
+       margin-left: 0px;
+
+   }
+
+   .schoolname p{
+
+
+       margin-left: 20px;
+
+       font-size: 1.2rem;
+
+
+   }
+
+
+   .technologydiv{
+
+       display: none;
+       margin-left: 0px;
+       margin-top: 10px;
+       height: 100%;
+       background-color: white;
+       font-size: 1rem;
+       /* animation: fade 1s; */
+
+   
+   }
+   
+   .technologydiv #lang{
+   
+       margin-left: 30px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   }
+   
+   
+   .technologydiv img{
+   
+   height: 80px;
+   margin-left: 43%;
+   
+   }
+
+   .languages div{
+
+
+       margin-top: 50px;
+       margin-left: 30px;
+       font-size: 0.9rem;
+       
+   
+   }
+
+
+   .projectsdiv{
+
+
+       margin-left: 0px;
+       margin-top: -100px;
+       display: none;
+       background-color: white;
+       /* animation: fade 1s; */
+
+   
+   }
+
+   
+   #idea{
+   
+   height: 80px;
+   margin-top: 0px;
+   margin-left: 280px;
+   
+   }
+   
+   .androidapp{
+   
+       display: flex;
+       margin-left: 10px;
+       margin-top: 50px;
+       border-bottom: 2px solid purple;
+   
+   }
+   
+   .androidapp p{
+   
+       font-size: 1rem;
+       margin-top: 20px;
+       margin-left: 10px;
+   
+   }
+   
+   .androidapp a {
+   
+       text-decoration: none;
+       font-size: 0.7rem;
+       color: white;
+       border: 1px solid red;
+       font-weight: bold;
+       padding: 2px;
+       height: 50%;
+       margin-top: 23px;
+       margin-left: 20px;
+       border-radius: 3px;
+       background-color: red;
+       font-family: 'Cabin', sans-serif;
+       
+   
+   
+   }
+   
+   
+   #description{
+       font-size: 1rem;
+       margin-top: 50px;
+       margin-left: 10px;
+   }
+
+
+
+}
+
+
+
+
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 700px){
+        
+        
+        
+        
+        p{
+        
+            font-family: 'Cabin', sans-serif;
+        
+        }
+        
+        a{
+            font-family: 'Cabin', sans-serif;
+        
+        }
+        
+        
+        .leftdiv{
+        
+            position: fixed;
+            width: 35%;
+            height: 100%;
+            color: white;
+            background-color: black;
+            animation: leftanim 1.5s ;
+            
+            
+        }
+
+        .leftdiv h4{
+
+            margin-left: 90px;
+
+
+
+        }
+        
+        
+        .rightdiv{
+            margin-top: 0px;
+            margin-left: 28%;
+            font-size: 100px;
+            height: 100%;
+            background-color: white;
+        
+        }
+        
+        #linkedin{
+        
+        
+            height: 28px;
+        
+        
+        }
+        
+        #contact{
+        
+        height: 28px;
+        
+        }
+        
+        
+        #profilepic{
+            height: 100px; 
+            margin-left: 10%; 
+            margin-top: 30px; 
+            border: 2px solid white; 
+            border-radius: 100px;
+        }
+
+        #gmail{
+            margin-left: 20px;
+        }
+        
+        
+        .about{
+        
+        
+            margin-top: 40px;
+            margin-left: 20px;
+        
+        }
+        
+        .about img{
+        
+            margin-left: 15px;
+        height: 20px;
+        border-radius: 5px;
+        
+        
+        }
+        
+        
+        #ullist{
+        
+            display: block;
+            margin-top: 50px;
+            list-style: none;
+            margin-left: 20px;
+        
+        
+        }
+        
+        li{
+            font-family: 'Cabin', sans-serif;
+            margin-bottom: 20px;
+            padding: 10px;
+            transition: 0.3s ease;
+            cursor: pointer;
+        
+        }
+        
+        
+        .object{
+        
+        padding: 10px;
+        font-size: 1.3rem;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+border-left: 8px solid purple;
+        
+        }
+        
+        
+        .objectivediv{
+        
+            margin-top: 20px;
+            font-size: 1.5rem;
+            margin-left: 50px;
+            display: none;
+            height: 500px;
+            background-color:white;
+        /* animation: fade 1s; */
+
+        
+        
+        }
+        
+        .objectivediv p{
+        
+        
+            margin-top: 30px;
+        
+        }
+        
+        .objectivediv img{
+        
+            height: 100px;
+            margin-left: 42%;
+        
+        
+        }
+        
+        
+        .objectivediv h3{
+        
+            margin-top: 30px;
+            font-family: 'Cabin', sans-serif;
+        
+        }
+        
+        
+        .technologydiv{
+        
+            display: none;
+            margin-top: 10px;
+            height: 100%;
+            background-color: white;
+            font-size: 1.5rem;
+        
+        }
+        
+        .technologydiv #lang{
+        
+            margin-left: 70px;
+            margin-top: 50px;
+            border-bottom: 2px solid purple;
+        }
+        
+        
+        .technologydiv img{
+        
+        height: 100px;
+        margin-left: 43%;
+        
+        }
+        
+        
+        .educationdiv{
+        
+            display: none;
+            height: 100%;
+            background-color: white;
+        /* animation: fade 1s; */
+
+        
+        
+        }
+        
+        #eduimg{
+            height: 120px;
+        }
+        
+        .languages{
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+        }
+        
+        
+        .languages div{
+        
+        
+            margin-top: 50px;
+            margin-left: 80px;
+            font-size: 0.9rem;
+            
+        
+        }
+        
+        .languages div img {
+            height: 50px;
+        }
+        
+        
+        .edu{
+            display: flex;
+            justify-content: center;
+        }
+        
+        
+        .school{
+            margin-top: 100px;
+            display: flex;
+            margin-left: 100px;
+            border-bottom: 2px solid purple;
+            margin-bottom: 20px;
+        }
+        
+        .school p {
+            margin-left: 10px;
+            margin-top: 20px;
+            font-size: 1.5rem;
+        
+        }
+        
+        
+        .collegename p{
+            font-size: 1.2rem;
+            margin-left: 200px;
+        }
+        
+        
+        
+        .schoolname{
+            margin-left: 200px;
+            margin-bottom: 50px;
+        }
+        
+        
+        .school img{
+            height: 70px;
+        }
+        
+        .schoolname{
+            font-size: 1rem;
+        
+        
+        }
+        
+        
+        .projectsdiv{
+        
+        
+            display: none;
+            background-color: white;
+        /* animation: fade 1s; */
+
+        
+        }
+        
+        #idea{
+        
+        height: 100px;
+        margin-left: 45%;
+        
+        }
+        
+        .androidapp{
+        
+            display: flex;
+            margin-left: 100px;
+            margin-top: 50px;
+            border-bottom: 2px solid purple;
+        
+        }
+        
+        .androidapp p{
+        
+            font-size: 1.5rem;
+            margin-top: 20px;
+            margin-left: 10px;
+        
+        }
+        
+        .androidapp a {
+        
+            text-decoration: none;
+            font-size: 0.8rem;
+            color: white;
+            border: 1px solid red;
+            font-weight: bold;
+            padding: 2px;
+            height: 50%;
+            margin-top: 23px;
+            margin-left: 20px;
+            border-radius: 3px;
+            background-color: red;
+            font-family: 'Cabin', sans-serif;
+            
+        
+        
+        }
+        
+        
+        #description{
+            font-size: 1.2rem;
+            margin-top: 50px;
+            margin-left: 120px;
+        }
+
+
+}
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 800px){
+        
+        
+        
+        
+    p{
+    
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    a{
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .leftdiv{
+    
+        position: fixed;
+        width: 30%;
+        height: 100%;
+        color: white;
+        background-color: black;
+        animation: leftanim 1.5s ;
+        
+        
+    }
+    
+    
+    .rightdiv{
+        margin-top: 0px;
+        margin-left: 28%;
+        font-size: 100px;
+        height: 100%;
+        background-color: white;
+    
+    }
+    
+
+    #gmail{
+        margin-left: 20px;
+    }
+
+    #linkedin{
+    
+    
+        height: 28px;
+    
+    
+    }
+    
+    #contact{
+    
+    height: 28px;
+    
+    }
+    
+    
+    #profilepic{
+        height: 100px; 
+        margin-left: 15%; 
+        margin-top: 30px; 
+        border: 2px solid white; 
+        border-radius: 100px;
+    }
+    
+    
+    .about{
+    
+    
+        margin-top: 40px;
+        margin-left: 20px;
+    
+    }
+    
+    .about img{
+    
+        margin-left: 15px;
+    height: 20px;
+    border-radius: 5px;
+    
+    
+    }
+    
+    
+    #ullist{
+    
+        display: block;
+        margin-top: 50px;
+        list-style: none;
+        margin-left: 20px;
+    
+    
+    }
+    
+    li{
+        font-family: 'Cabin', sans-serif;
+        margin-bottom: 20px;
+        padding: 10px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    
+    }
+    
+    
+    .object{
+    
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+border-left: 8px solid purple;
+
+    
+    }
+    
+    
+    .objectivediv{
+    
+        margin-top: 20px;
+        font-size: 1.5rem;
+        margin-left: 50px;
+        display: none;
+        height: 500px;
+        background-color:white;
+        /* animation: fade 1s; */
+
+    
+    
+    }
+    
+    .objectivediv p{
+    
+    
+        margin-top: 30px;
+    
+    }
+    
+    .objectivediv img{
+    
+        height: 100px;
+        margin-left: 42%;
+    
+    
+    }
+    
+    
+    .objectivediv h3{
+    
+        margin-top: 30px;
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .technologydiv{
+    
+        display: none;
+        margin-top: 10px;
+        height: 100%;
+        background-color: white;
+        font-size: 1.5rem;
+        margin-left: 50px;
+
+    
+    }
+    
+    .technologydiv #lang{
+    
+        margin-left: 70px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    }
+    
+    
+    .technologydiv img{
+    
+    height: 100px;
+    margin-left: 43%;
+    
+    }
+    
+    
+    .educationdiv{
+    
+        display: none;
+        height: 100%;
+        background-color: white;
+        /* animation: fade 1s; */
+        margin-left: 50px;
+
+    
+    
+    }
+    
+    #eduimg{
+        height: 120px;
+    }
+    
+    .languages{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    
+    
+    .languages div{
+    
+    
+        margin-top: 50px;
+        margin-left: 80px;
+        font-size: 0.9rem;
+        
+    
+    }
+    
+    .languages div img {
+        height: 50px;
+    }
+    
+    
+    .edu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .school{
+        margin-top: 100px;
+        display: flex;
+        margin-left: 100px;
+        border-bottom: 2px solid purple;
+        margin-bottom: 20px;
+    }
+    
+    .school p {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    
+    }
+    
+    
+    .collegename{
+        font-size: 1.5rem;
+        margin-left: 30px;
+    }
+    
+    
+    
+    .schoolname{
+        margin-left: 200px;
+        font-size: 1.5rem;
+
+    }
+    
+    
+    .school img{
+        height: 70px;
+    }
+    
+    
+    
+    .projectsdiv{
+    
+    
+        display: none;
+        background-color: white;
+        /* animation: fade 1s; */
+        margin-left: 50px;
+
+    
+    }
+    
+    #idea{
+    
+    height: 100px;
+    margin-left: 45%;
+    
+    }
+    
+    .androidapp{
+    
+        display: flex;
+        margin-left: 100px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    
+    }
+    
+    .androidapp p{
+    
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-left: 10px;
+    
+    }
+    
+    .androidapp a {
+    
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+        border: 1px solid red;
+        font-weight: bold;
+        padding: 2px;
+        height: 50%;
+        margin-top: 23px;
+        margin-left: 20px;
+        border-radius: 3px;
+        background-color: red;
+        font-family: 'Cabin', sans-serif;
+        
+    
+    
+    }
+    
+    
+    #description{
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+
+}
+
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 1000px){
+        
+        
+        
+        
+    p{
+    
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    a{
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .leftdiv{
+    
+        position: fixed;
+        width: 24%;
+        height: 100%;
+        color: white;
+        background-color: black;
+        animation: leftanim 1.5s ;
+        
+        
+    }
+    
+    
+    .rightdiv{
+        margin-top: 0px;
+        margin-left: 28%;
+        font-size: 100px;
+        height: 100%;
+        background-color: white;
+    
+    }
+
+
+    #gmail{
+        margin-left: 10px;
+    }
+    
+    #linkedin{
+    
+    
+        height: 28px;
+    
+    
+    }
+    
+    #contact{
+    
+    height: 28px;
+    
+    }
+    
+    
+    #profilepic{
+        height: 100px; 
+        margin-left: 5%; 
+        margin-top: 30px; 
+        border: 2px solid white; 
+        border-radius: 100px;
+    }
+    
+    
+    .about{
+    
+    
+        margin-top: 40px;
+        margin-left: 20px;
+    
+    }
+    
+    .about img{
+    
+        margin-left: 15px;
+    height: 20px;
+    border-radius: 5px;
+    
+    
+    }
+    
+    
+    #ullist{
+    
+        display: block;
+        margin-top: 50px;
+        list-style: none;
+        margin-left: 20px;
+    
+    
+    }
+    
+    li{
+        font-family: 'Cabin', sans-serif;
+        margin-bottom: 20px;
+        padding: 10px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    
+    }
+    
+    
+    .object{
+    
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+border-left: 8px solid purple;
+    
+    }
+    
+    
+    .objectivediv{
+    
+        margin-top: 20px;
+        font-size: 1.5rem;
+        margin-left: 50px;
+        display: none;
+        height: 500px;
+        background-color:white;
+        animation: fade 1s;
+
+    
+    
+    }
+    
+    .objectivediv p{
+    
+    
+        margin-top: 30px;
+    
+    }
+    
+    .objectivediv img{
+    
+        height: 100px;
+        margin-left: 42%;
+    
+    
+    }
+    
+    
+    .objectivediv h3{
+    
+        margin-top: 30px;
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .technologydiv{
+    
+        display: none;
+        margin-top: 10px;
+        height: 100%;
+        background-color: white;
+        font-size: 1.5rem;
+        animation: fade 1s;
+
+    
+    }
+    
+    .technologydiv #lang{
+    
+        margin-left: 70px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    }
+    
+    
+    .technologydiv img{
+    
+    height: 100px;
+    margin-left: 43%;
+    
+    }
+    
+    
+    .educationdiv{
+    
+        display: none;
+        height: 100%;
+        background-color: white;
+        animation: fade 1s;
+
+    
+    
+    }
+    
+    #eduimg{
+        height: 120px;
+    }
+    
+    .languages{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    
+    
+    .languages div{
+    
+    
+        margin-top: 50px;
+        margin-left: 80px;
+        font-size: 0.9rem;
+        
+    
+    }
+    
+    .languages div img {
+        height: 50px;
+    }
+    
+    
+    .edu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .school{
+        margin-top: 100px;
+        display: flex;
+        margin-left: 100px;
+        border-bottom: 2px solid purple;
+        margin-bottom: 20px;
+    }
+    
+    .school p {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    
+    }
+    
+    
+    .collegename{
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+    
+    
+    
+    .schoolname{
+        margin-left: 200px;
+        font-size: 1.5rem;
+
+    }
+    
+    
+    .school img{
+        height: 70px;
+    }
+    
+    
+    
+    .projectsdiv{
+    
+    
+        display: none;
+        background-color: white;
+        animation: fade 1s;
+
+    
+    }
+    
+    #idea{
+    
+    height: 100px;
+    margin-left: 45%;
+    
+    }
+    
+    .androidapp{
+    
+        display: flex;
+        margin-left: 100px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    
+    }
+    
+    .androidapp p{
+    
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-left: 10px;
+    
+    }
+    
+    .androidapp a {
+    
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+        border: 1px solid red;
+        font-weight: bold;
+        padding: 2px;
+        height: 50%;
+        margin-top: 23px;
+        margin-left: 20px;
+        border-radius: 3px;
+        background-color: red;
+        font-family: 'Cabin', sans-serif;
+        
+    
+    
+    }
+    
+    
+    #description{
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+
+}
+
+
+/* ################################################################################################## */
+
+@media only screen and (min-width: 1100px){
+        
+        
+        
+        
+    p{
+    
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    a{
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .leftdiv{
+    
+        position: fixed;
+        width: 24%;
+        height: 100%;
+        color: white;
+        background-color: black;
+        animation: leftanim 1.5s ;
+        
+        
+    }
+
+
+    .leftdiv h4{
+
+
+        margin-left: 100px;
+
+    }
+    
+    
+    .rightdiv{
+        margin-top: 0px;
+        margin-left: 28%;
+        font-size: 100px;
+        height: 100%;
+        background-color: white;
+    
+    }
+    
+    #linkedin{
+    
+    
+        height: 28px;
+    
+    
+    }
+    
+    #contact{
+    
+    height: 28px;
+    
+    }
+    
+    
+    #profilepic{
+        height: 100px; 
+        margin-left: 25%; 
+        margin-top: 30px; 
+        border: 2px solid white; 
+        border-radius: 100px;
+    }
+    
+    #gmail{
+        margin-left: 30px;
+    }
+    
+    .about{
+    
+    
+        margin-top: 40px;
+        margin-left: 20px;
+    
+    }
+    
+    .about img{
+    
+        margin-left: 15px;
+    height: 20px;
+    border-radius: 5px;
+    
+    
+    }
+    
+    
+    #ullist{
+    
+        display: block;
+        margin-top: 50px;
+        list-style: none;
+        margin-left: 20px;
+    
+    
+    }
+    
+    li{
+        font-family: 'Cabin', sans-serif;
+        margin-bottom: 20px;
+        padding: 10px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    
+    }
+    
+    
+    .object{
+    
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+border-left: 8px solid purple;
+    
+    }
+    
+    
+    .objectivediv{
+    
+        margin-top: 20px;
+        font-size: 1.5rem;
+        margin-left: 50px;
+        display: none;
+        height: 500px;
+        background-color:white;
+        animation: fade 1s;
+
+    
+    
+    }
+    
+    .objectivediv p{
+    
+    
+        margin-top: 30px;
+    
+    }
+    
+    .objectivediv img{
+    
+        height: 100px;
+        margin-left: 42%;
+    
+    
+    }
+    
+    
+    .objectivediv h3{
+    
+        margin-top: 30px;
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .technologydiv{
+    
+        display: none;
+        margin-top: 10px;
+        height: 100%;
+        background-color: white;
+        font-size: 1.5rem;
+        animation: fade 1s;
+
+    
+    }
+    
+    .technologydiv #lang{
+    
+        margin-left: 70px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    }
+    
+    
+    .technologydiv img{
+    
+    height: 100px;
+    margin-left: 43%;
+    
+    }
+    
+    
+    .educationdiv{
+    
+        display: none;
+        height: 100%;
+        background-color: white;
+        animation: fade 1s;
+
+    
+    
+    }
+    
+    #eduimg{
+        height: 120px;
+    }
+    
+    .languages{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    
+    
+    .languages div{
+    
+    
+        margin-top: 50px;
+        margin-left: 80px;
+        font-size: 0.9rem;
+        
+    
+    }
+    
+    .languages div img {
+        height: 50px;
+    }
+    
+    
+    .edu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .school{
+        margin-top: 100px;
+        display: flex;
+        margin-left: 100px;
+        border-bottom: 2px solid purple;
+        margin-bottom: 20px;
+    }
+    
+    .school p {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    
+    }
+    
+    
+    .collegename{
+        font-size: 1.5rem;
+        margin-left: 0px;
+    }
+    
+    
+    
+    .schoolname{
+        margin-left: 180px;
+        font-size: 1.5rem;
+
+    }
+    
+    
+    .school img{
+        height: 70px;
+    }
+    
+
+    
+    .projectsdiv{
+    
+    
+        display: none;
+        background-color: white;
+        animation: fade 1s;
+
+    
+    }
+    
+    #idea{
+    
+    height: 100px;
+    margin-left: 45%;
+    
+    }
+    
+    .androidapp{
+    
+        display: flex;
+        margin-left: 100px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    
+    }
+    
+    .androidapp p{
+    
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-left: 10px;
+    
+    }
+    
+    .androidapp a {
+    
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+        border: 1px solid red;
+        font-weight: bold;
+        padding: 2px;
+        height: 50%;
+        margin-top: 23px;
+        margin-left: 20px;
+        border-radius: 3px;
+        background-color: red;
+        font-family: 'Cabin', sans-serif;
+        
+    
+    
+    }
+    
+    
+    #description{
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+
+}
+
+
+/* #################################################################################################3 */
+
+@media only screen and (min-width: 1300px){
+        
+        
+        
+        
+    p{
+    
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    a{
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .leftdiv{
+    
+        position: fixed;
+        width: 24%;
+        height: 100%;
+        color: white;
+        background-color: black;
+        animation: leftanim 1.5s ;
+        
+        
+    }
+
+
+    .leftdiv h4{
+
+
+        margin-left: 110px;
+
+    }
+    
+    
+    .rightdiv{
+        margin-top: 0px;
+        margin-left: 28%;
+        font-size: 100px;
+        height: 100%;
+        background-color: white;
+    
+    }
+    
+    #linkedin{
+    
+    
+        height: 28px;
+    
+    
+    }
+    
+    #contact{
+    
+    height: 28px;
+    
+    }
+    #gmail{
+        margin-left: 60px;
+    }
+    
+    
+    #profilepic{
+        height: 100px; 
+        margin-left: 25%; 
+        margin-top: 30px; 
+        border: 2px solid white; 
+        border-radius: 100px;
+    }
+    
+    
+    .about{
+    
+    
+        margin-top: 40px;
+        margin-left: 20px;
+    
+    }
+    
+    .about img{
+    
+        margin-left: 15px;
+    height: 20px;
+    border-radius: 5px;
+    
+    
+    }
+    
+    
+    #ullist{
+    
+        display: block;
+        margin-top: 50px;
+        list-style: none;
+        margin-left: 20px;
+    
+    
+    }
+    
+    li{
+        font-family: 'Cabin', sans-serif;
+        margin-bottom: 20px;
+        padding: 10px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    
+    }
+    
+    
+    .object{
+    
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+border-left: 8px solid purple;
+
+    
+    }
+    
+    
+    .objectivediv{
+    
+        margin-top: 20px;
+        font-size: 1.5rem;
+        margin-left: 50px;
+        display: none;
+        height: 500px;
+        background-color:white;
+        animation: fade 1s;
+    
+    
+    }
+    
+    .objectivediv p{
+    
+    
+        margin-top: 30px;
+    
+    }
+    
+    .objectivediv img{
+    
+        height: 100px;
+        margin-left: 42%;
+    
+    
+    }
+    
+    
+    .objectivediv h3{
+    
+        margin-top: 30px;
+        font-family: 'Cabin', sans-serif;
+    
+    }
+    
+    
+    .technologydiv{
+    
+        display: none;
+        margin-top: 10px;
+        height: 100%;
+        background-color: white;
+        font-size: 1.5rem;
+        animation: fade 1s;
+
+    
+    }
+    
+    .technologydiv #lang{
+    
+        margin-left: 70px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    }
+    
+    
+    .technologydiv img{
+    
+    height: 100px;
+    margin-left: 43%;
+    
+    }
+    
+    
+    .educationdiv{
+    
+        display: none;
+        height: 100%;
+        background-color: white;
+        animation: fade 1s;
+
+    
+    
+    }
+    
+    #eduimg{
+        height: 120px;
+    }
+    
+    .languages{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    
+    
+    .languages div{
+    
+    
+        margin-top: 50px;
+        margin-left: 80px;
+        font-size: 0.9rem;
+        
+    
+    }
+    
+    .languages div img {
+        height: 50px;
+    }
+    
+    
+    .edu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .school{
+        margin-top: 100px;
+        display: flex;
+        margin-left: 100px;
+        border-bottom: 2px solid purple;
+        margin-bottom: 20px;
+    }
+    
+    .school p {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    
+    }
+    
+    
+    .collegename{
+        font-size: 1.5rem;
+        margin-left: 0px;
+    }
+    
+    
+    
+    .schoolname{
+        margin-left: 180px;
+        font-size: 1.5rem;
+
+    }
+    
+    
+    .school img{
+        height: 70px;
+    }
+    
+
+    
+    .projectsdiv{
+    
+    
+        display: none;
+        background-color: white;
+        animation: fade 1s;
+
+    
+    }
+    
+    #idea{
+    
+    height: 100px;
+    margin-left: 45%;
+    
+    }
+    
+    .androidapp{
+    
+        display: flex;
+        margin-left: 100px;
+        margin-top: 50px;
+        border-bottom: 2px solid purple;
+    
+    }
+    
+    .androidapp p{
+    
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-left: 10px;
+    
+    }
+    
+    .androidapp a {
+    
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+        border: 1px solid red;
+        font-weight: bold;
+        padding: 2px;
+        height: 50%;
+        margin-top: 23px;
+        margin-left: 20px;
+        border-radius: 3px;
+        background-color: red;
+        font-family: 'Cabin', sans-serif;
+        
+    
+    
+    }
+    
+    
+    #description{
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+
+
+}
+
+
+
+
+@keyframes leftanim{
+
+    0%{
+
+        bottom: 100%;
+
+    }
+
+    40%{
+
+        bottom: 0%;
+
+
+    }
+
+    65%
+    {
+        bottom: 5%;
+    }
+
+    75%{
+
+        bottom: 0%;
+
+    }
+
+    85%{
+        bottom: 3%;
+    }
+
+    100%{
+
+        bottom: 0%;
+    }
+
+
+}
+
+
+@keyframes fade{
+
+    from{opacity: 0;}
+    to{opacity: 1;}
+
+
+}
+
+
+@keyframes cir{
+
+    from{
+        
+        transform:  rotate(0deg);
+    
+    }
+    to{
+        
+        transform: rotate(360deg);
+    
+    }
+    
+
+
+}
+
